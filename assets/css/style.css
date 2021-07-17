@@ -46,11 +46,8 @@ a {
 
 h2 {
     font-size: 3rem;
-    display: inline;
-    border-right: solid;
-    padding: 5px;
-    text-align: right;
     font-family: courier;
+
 }
 
 p {
@@ -99,7 +96,9 @@ h3 {
 
 
 .Work {
-    padding: 100px;
+    display: flex;
+    flex-flow: row wrap;
+
 }
 
 #brennan-it {
@@ -110,7 +109,7 @@ h3 {
 }
 
 .section {
-    padding: 100px;
+
 }
 
 .card p {
