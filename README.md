@@ -1,6 +1,6 @@
-This is my main portfolio.
+#This is my portfolio.
 
-The live URL is https://chandtheman1.github.io/Coding/02%20Advanced%20CSS%20Portfolio/index.html
+The live URL is https://chandtheman1.github.io/02-Portfolio/
 
 You will see my About Me, my previous work, ways of contacting me and a resume.
 
