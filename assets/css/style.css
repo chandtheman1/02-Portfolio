@@ -54,6 +54,7 @@ p {
     display: inline;
     font-family: Courier;
     padding: 10px;
+    font-size: 20px;
 }
 
 h3 {
@@ -103,13 +104,14 @@ h3 {
 
 .Work h2 {
     flex: 1 0 auto;
+    padding: 10px;
 }
 
 #brennan-it {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: fit-content;
 }
 
 .section {
@@ -119,32 +121,9 @@ h3 {
 .small-cards {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-.card p {
-    /* display: inline-block; */
-}
-
-.bottom-left {
-    /* position: relative;
-    bottom: 8px;
-    left: 16px; */
-  }
- 
-
-.card {
-  
-    /* padding: 10px;
-    margin: 10px;
-    flex: 0 0 0px; */
-}
-
-section img {
-    /* display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly; */
-
-}
 
 div.polaroid {
     
@@ -152,8 +131,7 @@ div.polaroid {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
 }
-  
-/* img {width: 100%} */
+
   
 div.container {
     text-align: center;
@@ -171,5 +149,16 @@ div.container {
 
 .footer {
     font-size: 30px;
-    color: #ffffff;
+    color: #000000;
+}
+
+@media screen and (max-width: 2068px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .Work {
+        display: flex;
+        flex-direction: column;
+    }
 }
